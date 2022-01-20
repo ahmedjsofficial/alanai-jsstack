@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Ubuntu&display=swap');
+#root, html, body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: #cacaca44;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.inst_card_body{
+    padding: 5%;
+    height: 15vh;
+    object-fit: fill;
+    margin-bottom: 40px;
+    background-color: #060a1f;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0,0,0,0.8);
+}
+.dropdown-divider{
+    border: 0.5px solid #ffff !important;
+    max-width: 35%;
+    margin: 10px auto;
+}
+.inst_card_body h3{
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 1rem rgba(255,255,255,0.7);
+    color: #ffff;
+}
+.alanThumbnail_div{
+    margin: 5vh 0;
+}
+.alanThumbnail_div img{
+    width: 25vw;
+    height: 25vh;
+    object-fit: contain;
+    border-radius: 15%;
+}
+footer{
+    width: auto;
+    display: flex;
+    margin-top: 15vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+footer .btn-link{
+    text-transform: uppercase;
+    background-color: #060a1f;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none !important;
+    text-shadow: 0.3rem 0.2rem 0.7rem rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+footer .btn-link:hover{
+    background-color: #0099ff;
+    color: #ffffff;
+    transition: 1ms ease-in-out;
+    -webkit-transition: 1ms ease-in-out;
+    -moz-transition: 1ms ease-in-out;
+    -o-transition: 1ms ease-in-out;
+}
+
+.footer-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 0 10px;
+    box-shadow: inset 1rem 1rem 10rem rgba(0,0,0,1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    footer{
+        width: 100%;
+        margin-top: 3vh;
+        text-align: start;
+    }
+    footer .btn-link{
+        margin: 0 10px;
+        padding: 10px 20px;
+        border-radius: 1px;
+        font-size: 1.2rem;
+    }
+    .inst_card_body h3{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 767px){
+    footer{
+        width: 100%;
+        margin-top: 4vh;
+        text-align: start;
+    }
+    footer .btn-link{
+        margin: 0 4px;
+        padding: 10px 10px;
+        border-radius: 1px;
+        font-size: 0.97rem;
+    }
+    .footer-logo{
+        height: 50px;
+        width: 50px;
+    } 
+    .inst_card_body h3{
+        font-size: 1rem;
+    }   
+}
+@media screen and (max-width: 500px){
+    footer{
+        width: 100%;
+        margin-top: 5vh;
+        text-align: start;
+    }
+    footer .btn-link{
+        margin: 0 4px;
+        padding: 10px 10px;
+        border-radius: 1px;
+        font-size: 0.77rem;
+    }
+    .footer-logo{
+        height: 50px;
+        width: 50px;
+    }    
+}
+@media screen and (max-width: 425px){
+    footer{
+        width: 100%;
+        margin-top: 4vh;
+        text-align: center;
+    }
+    footer .btn-link{
+        margin: 0px 0px 10px 4px;
+        padding: 12px 15px;
+        display: inline-block;
+        border-radius: 1px;
+        font-size: 0.97rem;
+    }
+    .footer-logo{
+        height: 50px;
+        width: 50px;
+    }    
+}

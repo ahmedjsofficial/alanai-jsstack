@@ -1,0 +1,3 @@
+First we use for alanbtn use effcet which takes two parameter (callbackfunction , dependecy Array);
+Now we need to import alanBtn-> to access this one for functionality we will be use 
+on COmmand function in wich we can use switch statement or if else.but we are going to use if else ok.
